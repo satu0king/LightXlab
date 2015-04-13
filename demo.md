@@ -1,0 +1,6 @@
+---
+layout:default
+title: demo
+permalink: /demo/
+---
+#Hello world
