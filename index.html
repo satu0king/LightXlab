@@ -1,9 +1,23 @@
 ---
-layout: index
+layout: default
 title: Home
 permalink: /
 ---
-
+<div id="headerwrap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h3>Show your work with this beautiful theme</h3>
+                <h1>Eyecatching Bootstrap 3 Theme.</h1>
+                <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                <h5>More Lorem Ipsum added here too.</h5>               
+            </div>
+            <div class="col-lg-8 col-lg-offset-2 himg">
+                <img src="{{ "/assets/img/browser.png" | prepend: site.baseurl }}" class="img-responsive">
+            </div>
+        </div><!-- /row -->
+    </div> <!-- /container -->
+</div><!-- /headerwrap -->
 <div id="service">
     <div class="container">
         <div class="row centered">
@@ -29,8 +43,6 @@ permalink: /
     </div><! --/container -->
 </div><! --/service -->
 
-{% include portfolio.html title="LATEST WORKS" limit=10 %}
-
 <div class="container mtb">
     <div class="row">
         <div class="col-lg-4 col-lg-offset-1">
@@ -38,22 +50,5 @@ permalink: /
             <p>{{ site.about }}</p>
             <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
         </div>
-
-        <div class="col-lg-3">
-            <h4>Frequently Asked</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['question'] %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            {% endfor %}
-        </div>
-
-        <div class="col-lg-3">
-            <h4>Latest Posts</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:5 %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %} 
-        </div>
-
     </div><! --/row -->
 </div><! --/container -->
