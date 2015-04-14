@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: LightXlab.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
+title: LightXlab
+description: "LightXlab is an optics simulation program simulating combinations of plane mirror, spherical mirror and parabolics mirror developed by Satvik Ramaprasad. "
+analytics: UA-61876800-1 #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
-url: "http://yourdomain.com"
+url: "http://lightxlab.com"
 
 # Build settings
 markdown: kramdown
@@ -62,4 +62,4 @@ members:
         url: http://twitter.com/handle
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "LightXlab is an optics simulation program simulating combinations of plane mirror, spherical mirror and parabolics mirror developed by Satvik Ramaprasad."
