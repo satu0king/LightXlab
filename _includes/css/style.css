@@ -145,7 +145,7 @@ a:focus {
   color: #fff;
   background-color: {{ site.colors.secondary }};
   border-color: {{ site.colors.secondary }};
-  margin: 4px;
+  margin: 8px;
 }
 .btn-theme:hover,
 .btn-theme:focus,
