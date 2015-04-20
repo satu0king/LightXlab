@@ -166,7 +166,7 @@ a:focus {
 }
 .dmbutton {
 	background:rgba(0, 0, 0, 0);
-	border: 1px solid #ffffff;
+	border: 2px solid #ffffff;
 	color: #ffffff;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
