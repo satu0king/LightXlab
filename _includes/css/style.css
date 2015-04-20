@@ -145,7 +145,7 @@ a:focus {
   color: #fff;
   background-color: {{ site.colors.secondary }};
   border-color: {{ site.colors.secondary }};
-  margin: 8px;
+  margin: 4px;
 }
 .btn-theme:hover,
 .btn-theme:focus,
@@ -166,7 +166,7 @@ a:focus {
 }
 .dmbutton {
 	background:rgba(0, 0, 0, 0);
-	border: 3px solid #ffffff;
+	border: 1px solid #ffffff;
 	color: #ffffff;
 	-webkit-border-radius: 2px;
 	border-radius: 2px;
