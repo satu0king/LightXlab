@@ -63,4 +63,3 @@ members:
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "LightXlab is an optics simulation program simulating combinations of plane mirror, spherical mirror and parabolics mirror developed by Satvik Ramaprasad."
-theme: jekyll-theme-dinky
