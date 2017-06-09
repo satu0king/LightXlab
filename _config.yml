@@ -5,7 +5,7 @@ title: LightXlab
 description: "LightXlab is an optics simulation program simulating combinations of plane mirror, spherical mirror and parabolics mirror developed by Satvik Ramaprasad. "
 analytics: UA-61876800-1 #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/LightXlab" #important: start with /
-url: "http://lightxlab.com"
+url: "satu0king.github.io/LightXlab"
 
 # Build settings
 markdown: kramdown
